@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-family: Roboto, sans-serif;
+}
+
+:root {
+  --brand: #0a0a0a;
+
+  --black: #000;
+  --white: #fff;
+
+  --gray-100: #edf2f7;
+  --gray-300: #cbd5e0;
+  --gray-500: #718096;
+  --gray-700: #2d3748;
+  --gray-900: #171923;
+
+  --orange-100: #feebc8;
+  --orange-300: #f6ad55;
+  --orange-500: #dd6b20;
+  --orange-700: #9c4221;
+  --orange-900: #652b19;
+
+  --cyan-100: #c4f1f9;
+  --cyan-300: #76e4f7;
+  --cyan-500: #00b5d8;
+  --cyan-700: #0987a0;
+  --cyan-900: #065666;
+
+  --red-100: #fed7d7;
+  --red-300: #fc8181;
+  --red-500: #e53e3e;
+  --red-700: #9b2c2c;
+  --red-900: #63171b;
+
+  --green-100: #c6f6d5;
+  --green-300: #68d391;
+  --green-500: #38a169;
+  --green-700: #276749;
+  --green-900: #1c4532;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+
+  @media (max-width: 420px) {
+    font-size: 75%;
+  }
+}
+
+body {
+  background: var(--gray-700);
+}
+
+button,
+select {
+  cursor: pointer;
+}
+
+.react-modal-overlay {
+  background: rgba(0, 0, 0, 0.5);
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-modal-content {
+  width: 100%;
+  max-width: 576px;
+  background: var(--gray-300);
+  padding: 3rem;
+  position: relative;
+  border-radius: 0.25rem;
+}
+
+.react-modal-close {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  border: 0;
+  background: transparent;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}

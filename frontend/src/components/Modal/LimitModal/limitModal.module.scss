@@ -1,0 +1,74 @@
+.form {
+  h2 {
+    color: var(--brand);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  input {
+    width: 100%;
+    padding: 0 1.5rem;
+    height: 4rem;
+    border-radius: 0.25rem;
+
+    border: 1px solid var(--gray-300);
+    background: var(--gray-100);
+
+    font-weight: 400;
+    font-size: 1rem;
+
+    &::placeholder {
+      color: var(--brand);
+    }
+
+    & + input {
+      margin-top: 1rem;
+    }
+  }
+
+  button[type='submit'] {
+    width: 100%;
+    padding: 0 1.5rem;
+    height: 4rem;
+    background: var(--orange-300);
+    color: var(--brand);
+    border-radius: 0.25rem;
+    border: 0;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    font-weight: 700;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+}
+
+.limit {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 1.5rem;
+  margin: 1.5rem 0 1rem;
+
+  span:first-child {
+    margin-right: 1rem;
+    text-align: left;
+  }
+
+  span:last-child {
+    margin-left: 1rem;
+    text-align: right;
+  }
+}

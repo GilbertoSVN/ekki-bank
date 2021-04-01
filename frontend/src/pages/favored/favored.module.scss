@@ -1,0 +1,92 @@
+.container {
+  max-width: 1120px;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+
+.favored {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  min-height: 42rem;
+  margin: 2rem auto;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--orange-500);
+    font-size: 1.15rem;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      label {
+        margin-left: 1rem;
+        border-radius: 0.25rem;
+        border: 1px solid var(--gray-300);
+        background: var(--gray-100);
+        display: flex;
+        align-items: center;
+
+        input {
+          appearance: none;
+          border: 0;
+          background: none;
+          margin: 0;
+          padding: 0.25rem 0.5rem;
+        }
+
+        svg {
+          margin: 0.1rem 0.25rem;
+          color: var(--gray-500);
+        }
+      }
+    }
+
+    button {
+      height: 2.5rem;
+      width: 12rem;
+      border-radius: 4px;
+      padding: 0 1.5rem;
+      background: var(--orange-300);
+      border: 0;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 0.25rem;
+      color: var(--brand);
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+
+  > div + div {
+    margin-top: 1rem;
+  }
+
+  .favoredGrid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    @media (max-width: 720px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 420px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
