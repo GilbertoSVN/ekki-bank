@@ -6,3 +6,4 @@ analyze performance with react profiler
 better configuration on pwa
 analyze accessibility
 add typescript
+better readme
