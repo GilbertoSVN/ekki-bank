@@ -1,0 +1,898 @@
+{
+	"log": {
+		"version": "1.2",
+		"creator": {
+			"name": "Insomnia REST Client",
+			"version": "insomnia.desktop.app:v2021.2.1"
+		},
+		"entries": [
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 30.664,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/transactions/gilberto@gilberto.com",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "23791"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"5cef-bbNA5DnBJdRGmwQeROIaGmSYZyU\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 01 Apr 2021 01:23:54 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 23791,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id\":1,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:19:09.086Z\",\"updatedAt\":\"2021-03-31T02:19:09.086Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":2,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:19:57.636Z\",\"updatedAt\":\"2021-03-31T02:19:57.636Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":3,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:20:22.032Z\",\"updatedAt\":\"2021-03-31T02:20:22.032Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":4,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:24:43.853Z\",\"updatedAt\":\"2021-03-31T02:24:43.853Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":5,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:25:34.053Z\",\"updatedAt\":\"2021-03-31T02:25:34.053Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":6,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:26:09.319Z\",\"updatedAt\":\"2021-03-31T02:26:09.319Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":7,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:26:45.959Z\",\"updatedAt\":\"2021-03-31T02:26:45.959Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":8,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:28:55.690Z\",\"updatedAt\":\"2021-03-31T02:28:55.690Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":9,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:29:15.346Z\",\"updatedAt\":\"2021-03-31T02:29:15.346Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":10,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:32:40.904Z\",\"updatedAt\":\"2021-03-31T02:32:40.904Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":11,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T02:35:44.239Z\",\"updatedAt\":\"2021-03-31T02:35:44.239Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":12,\"value\":\"1000\",\"description\":\"Transfered 1000 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T16:45:15.720Z\",\"updatedAt\":\"2021-03-31T16:45:15.720Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":13,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T16:45:52.268Z\",\"updatedAt\":\"2021-03-31T16:45:52.268Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":14,\"value\":\"98500\",\"description\":\"Transfered 98500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:28:17.271Z\",\"updatedAt\":\"2021-03-31T17:28:17.271Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":15,\"value\":\"98500\",\"description\":\"Transfered 98500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:31:46.366Z\",\"updatedAt\":\"2021-03-31T17:31:46.366Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":16,\"value\":\"98500\",\"description\":\"Transfered 98500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:33:01.603Z\",\"updatedAt\":\"2021-03-31T17:33:01.603Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":17,\"value\":\"1\",\"description\":\"Transfered 1 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:33:51.513Z\",\"updatedAt\":\"2021-03-31T17:33:51.513Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":18,\"value\":\"1\",\"description\":\"Transfered 1 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:35:33.158Z\",\"updatedAt\":\"2021-03-31T17:35:33.158Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":19,\"value\":\"1\",\"description\":\"Transfered 1 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:35:37.694Z\",\"updatedAt\":\"2021-03-31T17:35:37.694Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":20,\"value\":\"1\",\"description\":\"Transfered 1 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:35:48.731Z\",\"updatedAt\":\"2021-03-31T17:35:48.731Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":21,\"value\":\"1\",\"description\":\"Transfered 1 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:36:36.570Z\",\"updatedAt\":\"2021-03-31T17:36:36.570Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":22,\"value\":\"1\",\"description\":\"Transfered 1 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:36:57.002Z\",\"updatedAt\":\"2021-03-31T17:36:57.002Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":23,\"value\":\"3\",\"description\":\"Transfered 3 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:38:57.142Z\",\"updatedAt\":\"2021-03-31T17:38:57.142Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":24,\"value\":\"3\",\"description\":\"Transfered 3 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:42:07.181Z\",\"updatedAt\":\"2021-03-31T17:42:07.181Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":25,\"value\":\"3\",\"description\":\"Transfered 3 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:45:29.105Z\",\"updatedAt\":\"2021-03-31T17:45:29.105Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":26,\"value\":\"3\",\"description\":\"Transfered 3 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T17:49:22.166Z\",\"updatedAt\":\"2021-03-31T17:49:22.166Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":27,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:02:31.362Z\",\"updatedAt\":\"2021-03-31T19:02:31.362Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":28,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:02:34.095Z\",\"updatedAt\":\"2021-03-31T19:02:34.095Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":29,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:02:35.731Z\",\"updatedAt\":\"2021-03-31T19:02:35.731Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":30,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:02:59.949Z\",\"updatedAt\":\"2021-03-31T19:02:59.949Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":31,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:03:20.970Z\",\"updatedAt\":\"2021-03-31T19:03:20.970Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":32,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:08:20.386Z\",\"updatedAt\":\"2021-03-31T19:08:20.386Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":33,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:08:22.730Z\",\"updatedAt\":\"2021-03-31T19:08:22.730Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":34,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:09:10.014Z\",\"updatedAt\":\"2021-03-31T19:09:10.014Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":35,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:09:12.261Z\",\"updatedAt\":\"2021-03-31T19:09:12.261Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":36,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:09:13.570Z\",\"updatedAt\":\"2021-03-31T19:09:13.570Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":37,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:11:39.671Z\",\"updatedAt\":\"2021-03-31T19:11:39.671Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":38,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:11:40.964Z\",\"updatedAt\":\"2021-03-31T19:11:40.964Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":39,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:11:43.480Z\",\"updatedAt\":\"2021-03-31T19:11:43.480Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":40,\"value\":\"500\",\"description\":\"Transfered 500 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-03-31T19:11:49.485Z\",\"updatedAt\":\"2021-03-31T19:11:49.485Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}},{\"id\":41,\"value\":\"50000\",\"description\":\"Transfered 50000 from Gilberto VN to Gilberto VN\",\"createdAt\":\"2021-04-01T01:23:44.164Z\",\"updatedAt\":\"2021-04-01T01:23:44.164Z\",\"received_by\":2,\"sended_by\":1,\"receiver\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"},\"sender\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"}}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 30.664,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "transactions_by_email"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 116.273,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/transactions/",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"sender_email\": \"gilberto@gilberto.com\",\n\t\"receiver_email\": \"gilberto2@gilberto2.com\",\n\t\"value\": 500,\n\t\"limit\": 500\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 400,
+					"statusText": "Bad Request",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "112"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"70-bdQVR3b8vc4wSJEgKszGJ1f6TOc\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Mar 2021 19:12:20 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 112,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"error\":\"Wait at least 2 minutes before making another transaction for someone you already made a transaction\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 116.273,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "new_transaction"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 19.738,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/balances/gilberto@gilberto.com",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "175"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"af-XNy+O9EucNjGky0pVRWG7Y1iVHI\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Mar 2021 16:42:38 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 175,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":1,\"limit\":\"500\",\"total_limit\":\"500\",\"max_limit\":\"500\",\"saved_limit\":\"0\",\"balance\":\"100000\",\"createdAt\":\"2021-03-31T00:15:02.106Z\",\"updatedAt\":\"2021-03-31T16:41:51.447Z\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 19.738,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "balance_by_email"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 20.004,
+				"request": {
+					"method": "PUT",
+					"url": "http://localhost:3333/balances/1",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"limit\": 500,\n\t\"total_limit\": 500,\n\t\"saved_limit\": 0\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "91"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"5b-l/2z9ouFJzwlr88C/3jfJ/y1T84\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Mar 2021 01:16:53 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 91,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":\"1\",\"limit\":500,\"total_limit\":500,\"saved_limit\":0,\"max_limit\":\"500\",\"balance\":\"1000\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 20.004,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "change_balance"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 10.551,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/favoreds/gilberto@gilberto.com",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "310"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"136-zhRmJpZc9CREUAOaDTnWWrfkvWk\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 01 Apr 2021 00:52:53 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 310,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "[{\"id\":11,\"createdAt\":\"2021-04-01T00:48:44.464Z\",\"updatedAt\":\"2021-04-01T00:48:44.464Z\",\"user_id\":2,\"favored_by\":1,\"favored\":{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"}}]"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 10.551,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "list_user_favored"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 16.831,
+				"request": {
+					"method": "DELETE",
+					"url": "http://localhost:3333/favoreds",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"user_id\": 1,\n\t\"favored_id\": 2\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "33"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"21-zlvt+nZlVDMlRn28GmjbEOYtedc\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Mar 2021 18:04:39 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 33,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"message\":\"Deletion completed.\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 16.831,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "remove_favored_user"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 20.174,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/favoreds",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"email\": \"gilberto@gilberto.com\",\n\t\"favored_email\": \"gilberto2@gilberto2.com\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "36"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"24-tTGAKMxLZluVqKbOMFaEW/z29Zg\""
+						},
+						{
+							"name": "Date",
+							"value": "Thu, 01 Apr 2021 00:48:44 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 36,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":11,\"favored_by\":1,\"user_id\":2}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 20.174,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "create_favored"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 12.74,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/accounts/gilberto@gilberto.com",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "506"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"1fa-FrXW+pvsxECYZTLKdKYS+y8wnng\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Mar 2021 23:39:38 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 506,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":1,\"account\":1,\"createdAt\":\"2021-03-31T00:15:02.110Z\",\"updatedAt\":\"2021-03-31T00:15:02.110Z\",\"user_id\":1,\"balance_id\":1,\"user\":{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:15:02.096Z\",\"updatedAt\":\"2021-03-31T00:24:24.040Z\"},\"balance\":{\"id\":1,\"limit\":\"50000\",\"total_limit\":\"50000\",\"max_limit\":\"50000\",\"saved_limit\":\"0\",\"balance\":\"100000\",\"createdAt\":\"2021-03-31T00:15:02.106Z\",\"updatedAt\":\"2021-03-31T23:38:16.140Z\"}}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 12.74,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "account_by_email"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 26.128,
+				"request": {
+					"method": "GET",
+					"url": "http://localhost:3333/users/2",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [],
+					"queryString": [],
+					"postData": {
+						"mimeType": "",
+						"text": "",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "183"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"b7-1CvMToM4s+oEq9lPwyrV7xYIpfY\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Mar 2021 15:25:21 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 183,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"createdAt\":\"2021-03-31T00:42:58.004Z\",\"updatedAt\":\"2021-03-31T00:42:58.004Z\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 26.128,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "user_by_id"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 94.064,
+				"request": {
+					"method": "POST",
+					"url": "http://localhost:3333/users",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"name\": \"Gilberto VN\",\n\t\"email\": \"gilberto2@gilberto2.com\",\n\t\"cpf\": \"99999999999\",\n\t\"phone\": \"19999999999\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "131"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"83-UzT8lQSApsBHooJJojR7NsQ+2kM\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Mar 2021 00:42:58 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 131,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":2,\"name\":\"Gilberto VN\",\"email\":\"gilberto2@gilberto2.com\",\"cpf\":\"99999999999\",\"phone\":\"19999999999\",\"account\":2,\"balanceId\":2}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 94.064,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "create_user"
+			},
+			{
+				"startedDateTime": "2021-04-01T03:29:05.156Z",
+				"time": 67.537,
+				"request": {
+					"method": "PUT",
+					"url": "http://localhost:3333/users",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"queryString": [],
+					"postData": {
+						"mimeType": "application/json",
+						"text": "{\n\t\"user_id\": 1,\n\t\"email\": \"gilberto@gilberto.com\",\n\t\"cpf\": \"10000000000\"\n}",
+						"params": []
+					},
+					"headersSize": -1,
+					"bodySize": -1,
+					"settingEncodeUrl": true
+				},
+				"response": {
+					"status": 200,
+					"statusText": "OK",
+					"httpVersion": "HTTP/1.1",
+					"cookies": [],
+					"headers": [
+						{
+							"name": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"name": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"name": "Content-Length",
+							"value": "103"
+						},
+						{
+							"name": "ETag",
+							"value": "W/\"67-Yw96vvWD0wpaX/7bqB0uGlEgaqQ\""
+						},
+						{
+							"name": "Date",
+							"value": "Wed, 31 Mar 2021 00:35:41 GMT"
+						},
+						{
+							"name": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"name": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"content": {
+						"size": 103,
+						"mimeType": "application/json; charset=utf-8",
+						"text": "{\"id\":1,\"name\":\"Gilberto VN\",\"email\":\"gilberto@gilberto.com\",\"cpf\":\"10000000000\",\"phone\":\"19999999999\"}"
+					},
+					"redirectURL": "",
+					"headersSize": -1,
+					"bodySize": -1
+				},
+				"cache": {},
+				"timings": {
+					"blocked": -1,
+					"dns": -1,
+					"connect": -1,
+					"send": 0,
+					"wait": 67.537,
+					"receive": 0,
+					"ssl": -1
+				},
+				"comment": "edit_user"
+			}
+		]
+	}
+}
